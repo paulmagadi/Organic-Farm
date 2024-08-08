@@ -1,6 +1,6 @@
 <footer>
     <div class="footer">
-        <div class="footer-col1">
+        <div class="footer-col1 col">
             <div class="footer-description">
                 <h1>Organic Farm</h1>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis aliquam laudantium quo sit quisquam repudiandae, pariatur magnam amet neque vitae est officia.
@@ -10,16 +10,27 @@
 
             </div>
         </div>
-        <div class="footer-col2">
+        <div class="footer-col2 col">
             <h1>Links</h1>
+            <ul>
+                <li><a href="#"></a>About</li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
         </div>
 
-        <div class="footer-col3">
+        <div class="footer-col3 col">
             <h1>Contact</h1>
+            <p>@organicfarm</p>
+            <p>@organicfarm</p>
+            <p>@organicfarm.info</p>
+            <p>002002001</p>
         </div>
 
-        <div class="footer-col4">
+        <div class="footer-col4 col">
             <h1>Newsletter</h1>
+            <p>Subscribe to our Newsletter</p>
         </div>
     </div>
 
@@ -29,3 +40,25 @@
         <p><a href="#">Privacy Policy</a></p>
     </div>
 </footer>
+
+<style>
+    .footer {
+        width: 100%;
+        display: flex;
+        flex: 1 1 1;
+        /* justify-content: space-between; */
+    }
+
+    .col {
+        width: 25%;
+        padding: .5em;
+    }
+
+    .foot {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+</style>

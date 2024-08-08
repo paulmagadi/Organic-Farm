@@ -11,15 +11,42 @@
             <a href="#">Account</a>
         </div>
 
-        <div class="search-bar">
-            <span class="material-symbols-outlined">
-                search
-            </span>
-        </div>
-
-        <div class="cart-container">
-            <span class="material-symbols-outlined">shopping_cart</span>
-
+        <div class="nav-elements">
+            <div class="search-bar">
+                <span class="material-symbols-outlined">
+                    search
+                </span>
+            </div>
+    
+            <div class="account">
+                <p>
+                    <span class="material-symbols-outlined">account_circle</span> 
+                    <span class="material-symbols-outlined">arrow_drop_down</span>
+                </p>
+            </div>
+    
+            <div class="cart-container">
+                <span class="material-symbols-outlined">shopping_cart</span>
+            </div>
         </div>
     </nav>
 </header>
+
+<style>
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-elements {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+</style>
